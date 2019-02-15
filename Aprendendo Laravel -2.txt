@@ -14,3 +14,6 @@ Aprendendo Laravel 2
    php artisan db:seed
 - Altenticação
    php artisan make:adminlte
+- Configurando o AdminLTE
+   php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=config
+     https://fontawesome.com/icons - icones
