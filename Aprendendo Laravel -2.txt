@@ -5,3 +5,4 @@ Aprendendo Laravel 2
      php artisan make:model [nome-da-model] -m
    Quando apagar alguma Migration executar comando...
       composer dump-autoload
+   php artisan migrate
