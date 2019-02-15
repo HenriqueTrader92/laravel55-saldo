@@ -1,0 +1,7 @@
+Aprendendo Laravel 2 
+
+- Criando tabelas
+  Começa criando a Model, e usa o parametro -m para criar juntamente a migration
+     php artisan make:model [nome-da-model] -m
+   Quando apagar alguma Migration executar comando...
+      composer dump-autoload
