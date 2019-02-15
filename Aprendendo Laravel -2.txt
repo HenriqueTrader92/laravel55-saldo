@@ -12,3 +12,5 @@ Aprendendo Laravel 2
 - SEEDER de usuario
    php artisan make:seed [nome-seed]
    php artisan db:seed
+- Altenticação
+   php artisan make:adminlte
