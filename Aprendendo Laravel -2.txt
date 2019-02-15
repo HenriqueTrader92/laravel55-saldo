@@ -6,3 +6,6 @@ Aprendendo Laravel 2
    Quando apagar alguma Migration executar comando...
       composer dump-autoload
    php artisan migrate
+- Instalando Template AdminLTE
+   https://github.com/jeroennoten/Laravel-AdminLTE
+     * Depois estudar sobre Stack... https://www.youtube.com/watch?v=4z-k8v-I6xQ?
