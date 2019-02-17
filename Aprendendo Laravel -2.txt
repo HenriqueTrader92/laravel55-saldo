@@ -17,3 +17,11 @@ Aprendendo Laravel 2
 - Configurando o AdminLTE
    php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=config
      https://fontawesome.com/icons - icones
+- Organizando os viwer e os controllers
+- redirecionamento de login
+- Traduzindo as mensagens
+   pacotes de tradutores - https://github.com/caouecs/Laravel-lang
+- Tentando traduzir o template
+
+- Organizando aplicação, criando primeiro controler
+   php artisan make:controller [nome controler]
