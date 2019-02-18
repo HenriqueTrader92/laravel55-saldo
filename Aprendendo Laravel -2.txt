@@ -26,7 +26,11 @@ Aprendendo Laravel 2
 	php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=translations
 - Customização do adminLTE
 	php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=views
-
-
 - Organizando aplicação, criando primeiro controler
    php artisan make:controller [nome controler]
+- layout exibição de saldo
+   Criar controle balance
+   	php artisan make:controller Admin\\BalanceController
+   Pegar icone do adminLTE
+	https://adminlte.io/themes/AdminLTE/index.html
+

@@ -11,8 +11,9 @@
 |
 */
 
-$this->group(['middlerware' => ['auth'], 'namespace' => 'admin'], function(){
-    $this->get('admin', 'AdminController@index')->name('admin.home');
+$this->group(['middlerware' => ['auth'], 'namespace' => 'admin', 'prefix' => 'admin'], function(){
+    $this->get('balance', 'BalanceController@index')->name('admin.balance');
+    $this->get('/', 'AdminController@index')->name('admin.home');
 });
 
 $this->get('/', 'site\SiteController@index')->name('home');

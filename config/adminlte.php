@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Marilene</b>System',
+    'logo' => '<b>4M</b>System',
 
-    'logo_mini' => '<b>M</b>STY',
+    'logo_mini' => '<b>4M</b>SYT',
 
     /*
     |--------------------------------------------------------------------------
@@ -120,6 +120,22 @@ return [
             'icon'        => 'home',
             // 'label'       => 4,
             // 'label_color' => 'success',
+        ],
+        [
+            'text'    => 'Financeiro',
+            'icon'    => 'money',
+            'submenu' => [
+                [
+                    'text' => 'Saldo',
+                    'url'  => 'admin/balance',
+                    'icon' => 'clipboard',
+                ],
+                [
+                    'text' => 'Histórico',
+                    'url'  => 'admin/historic',
+                    'icon' => 'history',
+                ]
+            ]
         ],
         // 'ACCOUNT SETTINGS',
         // [
