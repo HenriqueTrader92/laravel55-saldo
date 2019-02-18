@@ -33,4 +33,6 @@ Aprendendo Laravel 2
    	php artisan make:controller Admin\\BalanceController
    Pegar icone do adminLTE
 	https://adminlte.io/themes/AdminLTE/index.html
+- exibir saldo do usuario
+
 

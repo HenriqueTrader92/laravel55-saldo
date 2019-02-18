@@ -9,6 +9,12 @@ class BalanceController extends Controller
 {
     public function index()
     {
-        return view('admin.balance.index');
+        // Pegar informações do usuario...
+        //dd( auth()->user() )
+
+        $balance = auth()->user()->balance;
+        $amount = $balance ? $balance->amount : 0;
+
+        return view('admin.balance.index', compact( 'amount' ));
     }
 }
