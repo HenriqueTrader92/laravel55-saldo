@@ -35,4 +35,9 @@ Aprendendo Laravel 2
 	https://adminlte.io/themes/AdminLTE/index.html
 - exibir saldo do usuario
 - Preparar o formulario de recarga
+   atualizar a tabela 
+   php artisan migrate:refresh
+  se colocar o --seed ele ja executar os seeders tb
+   php artisan migrate:refresh --seed
+    ***Lembrar que ao executar essas atualziações de tabela as informações contidas nas tabelas sao apagadas
 
