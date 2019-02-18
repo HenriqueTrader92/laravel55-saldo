@@ -44,4 +44,5 @@ Aprendendo Laravel 2
  Registrar no formulario a recarga
    Registrar historico
   beginTransaction
-
+  Criar form request
+    php artisan make:request MoneyValidationFormRequest
