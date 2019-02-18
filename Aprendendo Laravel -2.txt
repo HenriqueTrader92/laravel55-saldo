@@ -40,4 +40,5 @@ Aprendendo Laravel 2
   se colocar o --seed ele ja executar os seeders tb
    php artisan migrate:refresh --seed
     ***Lembrar que ao executar essas atualziações de tabela as informações contidas nas tabelas sao apagadas
+  Fazendo recarga e exebindo retornos
 
