@@ -22,6 +22,11 @@ Aprendendo Laravel 2
 - Traduzindo as mensagens
    pacotes de tradutores - https://github.com/caouecs/Laravel-lang
 - Tentando traduzir o template
+   pacote mais personalizado
+	php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=translations
+- Customização do adminLTE
+	php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=views
+
 
 - Organizando aplicação, criando primeiro controler
    php artisan make:controller [nome controler]
