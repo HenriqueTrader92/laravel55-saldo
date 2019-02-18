@@ -46,3 +46,4 @@ Aprendendo Laravel 2
   beginTransaction
   Criar form request
     php artisan make:request MoneyValidationFormRequest
+  retorno da tela para finalizar o carregamento do saldo
