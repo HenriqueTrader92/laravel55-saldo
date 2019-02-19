@@ -17,7 +17,7 @@ return [
 
     'title_prefix' => '',
 
-    'title_postfix' => ' - Marilene LTDA',
+    'title_postfix' => ' - 4M LTDA',
 
     /*
     |--------------------------------------------------------------------------
