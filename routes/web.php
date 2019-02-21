@@ -30,6 +30,8 @@ $this->group(['middlerware' => ['auth'], 'namespace' => 'admin', 'prefix' => 'ad
     $this->get('/', 'AdminController@index')->name('admin.home');
 });
 
+$this->get('meu-perfil', 'Admin\UserController@profile')->name('profile')->middleware('auth');
+
 $this->get('/', 'site\SiteController@index')->name('home');
 
 Auth::routes();
