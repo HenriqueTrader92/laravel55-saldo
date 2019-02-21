@@ -6,7 +6,8 @@
 
 <h1>Meu Perfil</h1>
 
-@if(session('success'))
+@include('admin.includes.alerts')
+<!-- @if(session('success'))
     <div class="alert alert-success">
         {{ session('success') }}
     </div> 
@@ -16,7 +17,7 @@
     <div class="alert alert-danger">
         {{ session('error') }}
     </div> 
-@endif
+@endif -->
 
 <form action="{{ route('profile.update') }}" method="POST" enctype="multipart/form-data">
     {!! csrf_field() !!}
