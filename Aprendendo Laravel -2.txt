@@ -47,3 +47,7 @@ Aprendendo Laravel 2
   Criar form request
     php artisan make:request MoneyValidationFormRequest
   retorno da tela para finalizar o carregamento do saldo
+-Criar tela de perfil de usuario
+ php artisan make:controller UserController
+-Criar link de public para storage
+ php artisan storege:link
